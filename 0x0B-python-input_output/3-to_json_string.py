@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 """
-    Python function that returns the JSON representation of an object
+Module for to_json_to-string method.
 """
+
 
 import json
 
 
 def to_json_string(my_obj):
-    return json.dumps(my_obj)
+    """
+    Returns JSON representation of an object.
+    """
+    return (json.dumps(my_obj))
