@@ -1,10 +1,14 @@
 #!/usr/bin/python3
-from json import loads
+"""
+Module for from_json_string method.
+"""
 
-"""From JSON String To Object Module"""
+
+import json
 
 
 def from_json_string(my_str):
-    """returns an object repr by a JSON string"""
-
-    return loads(my_str)
+    """
+    returns an object represented by a JSON string.
+    """
+    return (json.loads(my_str))
